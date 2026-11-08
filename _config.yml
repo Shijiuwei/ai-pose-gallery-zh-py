@@ -1,0 +1,5 @@
+title: "ai-pose-gallery-zh-py"
+description: "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 - Enhanced performance edition with automated verification."
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links

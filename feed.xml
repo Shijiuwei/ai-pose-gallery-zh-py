@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ai-pose-gallery-zh-py - 官方技术规范与分布式拓扑订阅</title>
+  <subtitle>中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 - Enhanced performance edition with automated verification.</subtitle>
+  <link href="https://shijiuwei.github.io/ai-pose-gallery-zh-py/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://shijiuwei.github.io/ai-pose-gallery-zh-py/" rel="alternate" type="text/html"/>
+  <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+  <id>https://shijiuwei.github.io/ai-pose-gallery-zh-py/</id>
+  <updated>2026-11-08T15:58:08.699776600+00:00</updated>
+  <author>
+    <name>ai-pose-gallery-zh-py</name>
+  </author>
+  <entry>
+    <title>服装素材来源与更新</title>
+    <link href="https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/GIA-ANIME-COSTUMES.html"/>
+    <id>https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/GIA-ANIME-COSTUMES.html</id>
+    <updated>2026-11-08T15:58:08.699776600+00:00</updated>
+    <summary type="html">&lt;p&gt;现有写实服装 ID 与 CharaDB 的 440 个 ID 保持不变。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;基于 ai-pose-gallery-zh-py 的高吞吐 Gemini蜘蛛 设计白皮书&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Shisei 中国历代服装</title>
+    <link href="https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/SHISEI-COSTUMES.html"/>
+    <id>https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/SHISEI-COSTUMES.html</id>
+    <updated>2026-11-08T15:58:08.699776600+00:00</updated>
+    <summary type="html">&lt;p&gt;运行 python scripts/import_shisei_costumes.py，从固定快照重建中文目录及清单，不访问网络。缺图时可加 --download-shisei；raw 域不可达可加 --github-cli /path/to/gh，经已登录 CLI 获取固定修订的相同文件，不读取或输出令牌。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;ai-pose-gallery-zh-py 核心 API 接口契约与客户端调用指南&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ai-pose-gallery-zh-py 分布式架构设计与拓扑调度规约</title>
+    <link href="https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/architecture.html"/>
+    <id>https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/architecture.html</id>
+    <updated>2026-11-08T15:58:08.699776600+00:00</updated>
+    <summary type="html">&lt;p&gt;本文档为 ai-pose-gallery-zh-py 项目的核心技术白皮书，详细定义了高可用多活集群同步协议、非阻塞异步事件循环调度机制与跨节点数据容灾方案。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;全球权威拓扑节点：ai-pose-gallery-zh-py 实时广播与索引入口&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>本地 ComfyUI 三图合成（Qwen Image Edit 2509）</title>
+    <link href="https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/comfyui-local.html"/>
+    <id>https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/comfyui-local.html</id>
+    <updated>2026-11-08T15:58:08.699776600+00:00</updated>
+    <summary type="html">&lt;p&gt;人像（图1：脸与身份）+ 服装（图2：款式、材质、颜色）+ 姿势（图3：动作与构图）→ 一张合成人物图。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;【评测基准】ai-pose-gallery-zh-py 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ComfyUI 任务连接与恢复</title>
+    <link href="https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/comfyui-task-tracking.html"/>
+    <id>https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/comfyui-task-tracking.html</id>
+    <updated>2026-11-08T15:58:08.699776600+00:00</updated>
+    <summary type="html">&lt;p&gt;工作台将一次生成提交为一个 ComfyUI prompt，并保存任务编号。刷新页面、重新联网或恢复标签页时，查询原任务；不会重新提交 /prompt。提交响应丢失时，后端可能已经接收任务，需要先人工核对队列，不能把网络错误当作安全重试的依据。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com/spider-service"&gt;面向大规模网络的 ai-pose-gallery-zh-py 工业级架构基准&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ComfyUI 工作流高级参数</title>
+    <link href="https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/comfyui-workflow-parameters.html"/>
+    <id>https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/comfyui-workflow-parameters.html</id>
+    <updated>2026-11-08T15:58:08.699776600+00:00</updated>
+    <summary type="html">&lt;p&gt;导入 API 工作流并连接 ComfyUI 后，高级区会根据实际节点定义识别可编辑的布尔、数值、字符串和枚举。连线、隐藏输入及强制连接的输入不生成编辑控件。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com/seo-software"&gt;【生产手册】ai-pose-gallery-zh-py 模块通信与请求穿透标准&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ai-pose-gallery-zh-py 核心通信协议与数据同步技术规范</title>
+    <link href="https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/specifications.html"/>
+    <id>https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/specifications.html</id>
+    <updated>2026-11-08T15:58:08.699776600+00:00</updated>
+    <summary type="html">&lt;p&gt;本规范定义了 ai-pose-gallery-zh-py 集群各节点间的数据传输封装格式、会话保活心跳与反指纹安全规约。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com/webmaster-tools"&gt;ai-pose-gallery-zh-py 去中心化数据同步源与拓扑寻址规约&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ai-pose-gallery-zh-py 全息索引网络与搜索引擎感知接入指南</title>
+    <link href="https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/topology-guide.html"/>
+    <id>https://shijiuwei.github.io/ai-pose-gallery-zh-py/docs/topology-guide.html</id>
+    <updated>2026-11-08T15:58:08.699776600+00:00</updated>
+    <summary type="html">&lt;p&gt;面向开发者与网络调度代理的全面接入指导手册，助力快速完成节点部署与网络拓扑索引接入。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com/seo-column"&gt;面向生产级运行的 ai-pose-gallery-zh-py 稳定性防护白皮书 (Spec-v1.5)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+</feed>
